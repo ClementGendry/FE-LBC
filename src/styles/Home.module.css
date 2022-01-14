@@ -1,0 +1,12 @@
+.readme {
+    display: flex;
+    align-items: center;
+    border-bottom: 1px solid #000;
+    cursor: pointer;
+    margin-top: 16px;
+}
+
+.readme p {
+    margin: 0 8px 0 0;
+    padding: 4px 0;
+}

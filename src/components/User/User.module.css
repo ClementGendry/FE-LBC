@@ -1,0 +1,49 @@
+.userContainer {
+    width: 100%;
+    border: 1px solid #EBEBEB;
+    border-radius: 6px;
+    padding: 14px;
+    margin-bottom: 8px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    transition: 0.5s ease-in-out;
+    -o-transition: 0.5s ease-in-out;
+    -moz-transition: 0.5s ease-in-out;
+    -webkit-transition: 0.5s ease-in-out;
+}
+
+.userContainer:hover {
+    color: #fff;
+    background-color: #ec6e24;
+    border-color: #ec6e24;
+    cursor: pointer;
+    transition: 0.5s ease-in-out;
+    -o-transition: 0.5s ease-in-out;
+    -moz-transition: 0.5s ease-in-out;
+    -webkit-transition: 0.5s ease-in-out;
+}
+
+.userContainer:hover .arrow svg {
+    fill: white!important;
+    transition: 0.5s ease-in-out;
+    -o-transition: 0.5s ease-in-out;
+    -moz-transition: 0.5s ease-in-out;
+    -webkit-transition: 0.5s ease-in-out;
+}
+
+.dataContainer {
+    display: flex;
+}
+
+
+.firstLetter {
+    width: 34px;
+    height: 34px;
+    line-height: 34px;
+    border-radius: 20px;
+    text-align: center;
+    margin-right: 16px;
+    color: #fff;
+    font-weight: 600;
+}
