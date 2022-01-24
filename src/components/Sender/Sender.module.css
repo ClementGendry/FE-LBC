@@ -1,0 +1,39 @@
+.senderContainer {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 16px;
+}
+
+.senderInput {
+    border: 1px solid #BEBEBE;
+    border-radius: 8px;
+    padding: 14px 8px;
+    margin-right: 4px;
+    width: 80%;
+}
+
+.senderButton {
+    background-color: #FF6E14;
+    border-radius: 4px;
+    border: 0 solid transparent;
+    padding: 14px;
+    width: 18%;
+    text-align: center;
+    color: #FFF;
+    cursor: pointer;
+}
+
+@media (max-width: 600px) {
+    .senderContainer {
+        display: inline-block;
+        width: 100%;
+    }
+
+    .senderInput, .senderButton {
+        width: 100%;
+    }
+
+    .senderInput {
+        margin-bottom: 8px;
+    }
+}
