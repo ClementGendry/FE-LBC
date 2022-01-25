@@ -14,7 +14,7 @@ const Sender: React.FC<SenderInterface> = ({placeholder, changeListener, submitL
                 placeholder={placeholder}
                 onChange={changeListener}
             />
-            <button className={styles.senderButton} onClick={submitListener}>Envoyer</button>
+            <button className={styles.senderButton} onClick={submitListener}>Send</button>
         </div>
     );
 };

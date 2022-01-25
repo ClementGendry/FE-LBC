@@ -19,6 +19,6 @@ export const submitMessage = (e, inputVal, id, nextrouter) => {
 
         Router.reload();
     } else {
-        alert(`Don't forget to wright something`);
+        alert(`Don't forget to write something`);
     }
 }

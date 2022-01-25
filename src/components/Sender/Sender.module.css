@@ -21,6 +21,7 @@
     text-align: center;
     color: #FFF;
     cursor: pointer;
+    width: auto;
 }
 
 @media (max-width: 600px) {
